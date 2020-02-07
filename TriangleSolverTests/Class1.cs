@@ -25,5 +25,19 @@ namespace TriangleSolverTests
             //Assert
             Assert.AreEqual(expectedResult, actualResult);
         }
+        [Test]
+        public void Analyze_Input15and15and10_ResultsIsoscelesTriangle()
+        {
+            //Arrange
+            int firstSide = 15; int secondSide = 15; int thirdSide = 10;
+
+            string expectedResult = "These inputs form an Isosceles triangle.";
+
+            //Act
+            string actualResult = TriangleSolver.Analyze(firstSide, secondSide, thirdSide);
+
+            //Assert
+            Assert.AreEqual(expectedResult, actualResult);
+        }
     }
 }
