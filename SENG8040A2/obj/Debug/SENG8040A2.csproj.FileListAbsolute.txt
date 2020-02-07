@@ -4,3 +4,12 @@ C:\Users\balje\source\repos\SENG8040A2\SENG8040A2\bin\Debug\SENG8040A2.pdb
 C:\Users\balje\source\repos\SENG8040A2\SENG8040A2\obj\Debug\SENG8040A2.csprojAssemblyReference.cache
 C:\Users\balje\source\repos\SENG8040A2\SENG8040A2\obj\Debug\SENG8040A2.exe
 C:\Users\balje\source\repos\SENG8040A2\SENG8040A2\obj\Debug\SENG8040A2.pdb
+D:\SENG8040A2\SENG8040A2\bin\Debug\SENG8040A2.exe.config
+D:\SENG8040A2\SENG8040A2\bin\Debug\SENG8040A2.exe
+D:\SENG8040A2\SENG8040A2\bin\Debug\SENG8040A2.pdb
+D:\SENG8040A2\SENG8040A2\bin\Debug\nunit.framework.dll
+D:\SENG8040A2\SENG8040A2\bin\Debug\nunit.framework.xml
+D:\SENG8040A2\SENG8040A2\obj\Debug\SENG8040A2.csprojAssemblyReference.cache
+D:\SENG8040A2\SENG8040A2\obj\Debug\SENG8040A2.csproj.CopyComplete
+D:\SENG8040A2\SENG8040A2\obj\Debug\SENG8040A2.exe
+D:\SENG8040A2\SENG8040A2\obj\Debug\SENG8040A2.pdb

@@ -1,0 +1,11 @@
+D:\SENG8040A2\TriangleSolverTests\bin\Debug\TriangleSolverTests.dll
+D:\SENG8040A2\TriangleSolverTests\bin\Debug\TriangleSolverTests.pdb
+D:\SENG8040A2\TriangleSolverTests\bin\Debug\nunit.framework.dll
+D:\SENG8040A2\TriangleSolverTests\bin\Debug\SENG8040A2.exe
+D:\SENG8040A2\TriangleSolverTests\bin\Debug\SENG8040A2.pdb
+D:\SENG8040A2\TriangleSolverTests\bin\Debug\SENG8040A2.exe.config
+D:\SENG8040A2\TriangleSolverTests\bin\Debug\nunit.framework.xml
+D:\SENG8040A2\TriangleSolverTests\obj\Debug\TriangleSolverTests.csprojAssemblyReference.cache
+D:\SENG8040A2\TriangleSolverTests\obj\Debug\TriangleSolverTests.csproj.CopyComplete
+D:\SENG8040A2\TriangleSolverTests\obj\Debug\TriangleSolverTests.dll
+D:\SENG8040A2\TriangleSolverTests\obj\Debug\TriangleSolverTests.pdb
