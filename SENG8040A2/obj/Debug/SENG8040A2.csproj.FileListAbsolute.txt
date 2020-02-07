@@ -1,0 +1,6 @@
+C:\Users\balje\source\repos\SENG8040A2\SENG8040A2\bin\Debug\SENG8040A2.exe.config
+C:\Users\balje\source\repos\SENG8040A2\SENG8040A2\bin\Debug\SENG8040A2.exe
+C:\Users\balje\source\repos\SENG8040A2\SENG8040A2\bin\Debug\SENG8040A2.pdb
+C:\Users\balje\source\repos\SENG8040A2\SENG8040A2\obj\Debug\SENG8040A2.csprojAssemblyReference.cache
+C:\Users\balje\source\repos\SENG8040A2\SENG8040A2\obj\Debug\SENG8040A2.exe
+C:\Users\balje\source\repos\SENG8040A2\SENG8040A2\obj\Debug\SENG8040A2.pdb
