@@ -53,5 +53,19 @@ namespace TriangleSolverTests
             //Assert
             Assert.AreEqual(expectedResult, actualResult);
         }
+        [Test]
+        public void Analyze_Input15and15and30_ResultsCannotFormTriangle()
+        {
+            //Arrange
+            int firstSide = 15; int secondSide = 15; int thirdSide = 30;
+
+            string expectedResult = "These inputs CANNOT form a triangle.";
+
+            //Act
+            string actualResult = TriangleSolver.Analyze(firstSide, secondSide, thirdSide);
+
+            //Assert
+            Assert.AreEqual(expectedResult, actualResult);
+        }
     }
 }
