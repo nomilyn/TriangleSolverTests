@@ -39,5 +39,19 @@ namespace TriangleSolverTests
             //Assert
             Assert.AreEqual(expectedResult, actualResult);
         }
+        [Test]
+        public void Analyze_Input10and15and20_ResultsScaleneTriangle()
+        {
+            //Arrange
+            int firstSide = 10; int secondSide = 15; int thirdSide = 20;
+
+            string expectedResult = "These inputs form a Scalene triangle.";
+
+            //Act
+            string actualResult = TriangleSolver.Analyze(firstSide, secondSide, thirdSide);
+
+            //Assert
+            Assert.AreEqual(expectedResult, actualResult);
+        }
     }
 }
