@@ -39,20 +39,6 @@ namespace TriangleSolverTests
             //Assert
             Assert.AreEqual(expectedResult, actualResult);
         }
-        [Test] 
-        public void Analyze_Input10and15and15_ResultsIsoscelesTriangle()
-        {
-            //Arrange
-            int firstSide = 10; int secondSide = 15; int thirdSide = 15;
-
-            string expectedResult = "These inputs form an Isosceles triangle.";
-
-            //Act
-            string actualResult = TriangleSolver.Analyze(firstSide, secondSide, thirdSide);
-
-            //Assert
-            Assert.AreEqual(expectedResult, actualResult);
-        }
         [Test]
         public void Analyze_Input10and15and20_ResultsScaleneTriangle()
         {
@@ -114,6 +100,22 @@ namespace TriangleSolverTests
         {
             //Arrange
             int firstSide = -30; int secondSide = -10; int thirdSide = -20;
+
+            string expectedResult = "Invalid Inputs";
+
+            InvalidCastException invalid = Assert.Throws<InvalidCastException>(() => TriangleSolver.Analyze(firstSide, secondSide, thirdSide));
+
+            //Act
+            string actualResult = invalid.Message;
+
+            //Assert
+            Assert.AreEqual(expectedResult, actualResult);
+        }
+        [Test]
+        public void Analyze_When0Inputs_ResultsExceptionMessage()
+        {
+            //Arrange
+            int firstSide = 0; int secondSide = 0; int thirdSide = 0;
 
             string expectedResult = "Invalid Inputs";
 
