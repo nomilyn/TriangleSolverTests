@@ -109,5 +109,21 @@ namespace TriangleSolverTests
             //Assert
             Assert.AreEqual(expectedResult, actualResult);
         }
+        [Test]
+        public void Analyze_WhenNegativeInputs_ResultsExceptionMessage()
+        {
+            //Arrange
+            int firstSide = -30; int secondSide = -10; int thirdSide = -20;
+
+            string expectedResult = "Invalid Inputs";
+
+            InvalidCastException invalid = Assert.Throws<InvalidCastException>(() => TriangleSolver.Analyze(firstSide, secondSide, thirdSide));
+
+            //Act
+            string actualResult = invalid.Message;
+
+            //Assert
+            Assert.AreEqual(expectedResult, actualResult);
+        }
     }
 }
